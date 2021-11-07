@@ -1,10 +1,10 @@
-import ReactDOM from 'react-dom';
-import React from 'react';
+import ReactDOM from "react-dom";
+import React from "react";
 
-function App(){
-	const name = "AhYeon";
+function App() {
+  const name = "AhYeon";
 
   return <h1>Hello {name}</h1>;
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById("app"));
